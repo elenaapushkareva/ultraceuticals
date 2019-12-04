@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Салоны</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+  <script src="img/salons/pin.png" type="text/javascript"></script>
+</head>
+
+<body class="page page-salons" data-page="">
+  <div class="header">
+    <!--Добавляем мобильное меню-->
+
+    <div class="header__menu-ico i-menu header-mobile-menu">
+      <div class="header__mobile-menu_item mobile-menu_burger"><a href="#"><img src="img/mobile/burger.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_search"><a href="#"><img src="img/mobile/search.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_logo_uc"><a href="#"><img src="img/mobile/logo.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_auth"><a href="#"><img src="img/mobile/user.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_basket"><a href="#"><img src="img/mobile/shop_card.png" alt=""></a></div>
+
+    </div>
+
+    <!--!!!КОНЕЦ ВСТАВКИ-->
+
+    <div class="header-bg">
+      <div class="header-top">
+        <div class="header-top__skin skin">
+          <div class="header__menu-ico i-menu" data-popup-opener="mobile-menu" data-popup-wrapper="mobile-menu-wrapper" style="display: none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header-top__logo logo">
+            <a href="catalog.html"> <img src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+
+          </div>
+
+          <ul class="header-top-menu">
+            <li class="header-top-menu__item _phone">
+              <span class="comagic_phone">(904) 666 09 08</span>
+            </li>
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link _partner" data-like-tip>Authentica Love</a>
+            </li>
+
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link" data-like-tip>Войти</a>
+            </li>
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link" data-like-tip><img src="img/basket.png" alt=""></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-menu" data-fixed-nav="">
+      <ul class="header-menu__skin skin" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link ">
+                                                    О бренде                                                                                          </a>
+        </li>
+        <li data-buy-opener class="header-menu__item" itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link">
+                                                    Каталог                                                                    </a>
+        </li>
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link ">
+                                                    Статьи                                                                                           </a>
+        </li>
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link _active">
+                                                    Салоны                                                                                          </a>
+        </li>
+
+      </ul>
+      <div class="header-menu__item">
+        <a href="/search/" class="header-menu__loupe header-loupe">
+            <img src="img/lupe.png" alt="">
+                                                                    </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div class="skin">
+      <div class="_beautyshops-detail__wrap-mobile">
+        <!--Хлебные крошки-->
+        <div class="breadcrumbs" id="navigation" itemscope itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" class="breadcrumbs__link"><span itemprop="name">Главная страница<meta itemprop="position" content="0"></span></a>
+          </span> / <span class="_current-breadcrumb">Салоны</span></div>
+
+        <div class="beautyshops-detail__wrap">
+          <div class="beautyshops-detail__text">Authentica сотрудничает с лучшими салонами вашего города. Ищите на карте ближайшие к вам бьюти-точки, где можно сделать уход, стрижку или маникюр, а заодно протестировать и купить косметику брендов Authentica.love</div>
+          <div class="beautyshops-detail__search beautyshops-detail__mobile-search">
+            <form action="/" method="post" class="beautyshop-search__form">
+            <input placeholder="Введите название города или салона" class="beautyshops-detail__field" type="text" name="" value="" />
+            <input class="beautyshops-detail__btn" type="submit" name="" id="" value="" />
+          </form>
+          </div>
+        </div>
+      </div>
+      <div class="beautyshops-detail__map"
+      >     
+
+        <iframe id="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3dbe465732be3574b12124b3ace04a2180def57b3fed41f873bdec0616ac4a9f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+          <!--Добавлена форма авторизации-->
+      <div class="beautyshops_popup_wrap">
+        <div class="catalog-item_feedback__close-button _close-auth-form"><a href="catalog-item_feedback__close-button__link"><img src="img/search/close.png" alt=""></a></div>
+        <div class="header-menu__auth-form_innercont">
+  
+          <div class="beautyshops_popup">
+            <div class="beautyshops_popup__title">Kynsi</div>
+            <div class="beautyshops_popup__text">
+              Москва г., ул. Петровка, д.20/1, 127051
+          </div>
+            <div class="beautyshops_popup__text">
+              Москва г., ул. Петровка, д.20/1, 127051
+          </div>
+              <div class="beautyshops_popup__phone">
+              +7 (495) 120 23 03
+          </div>
+            <div class="beautyshops_popup__email"><a href="#">http://kynsi.ru</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+      <!--конец добавленной формы авторизации-->
+      </div>
+
+      <div class="articles-miniature _beautyshops-recommendations articles-miniature-mobile">
+        <div class="articles-miniature_recommendations articles-miniature_mobile-recommendations">
+          <span class="articles-miniature_recommendation-title _salons-article">
+              <h2><a href="">Рекомендуемые статьи</a></h2></span>
+          <span><a href="#" class="articles-miniature_showall">Показать все</a></span>
+        </div>
+
+        <div class="articles-miniature _article-mobile-miniature ">
+          <div class="page-content__article-miniature">
+            <div class="article-minuature__promo mobile-promo_miniature-wrap">
+              <img src="img/article_mini_one.png" alt="Все, что нужно этой осенью.">
+
+            </div>
+
+            <div class="article-miniature__title-wrap">
+              <div class="article-miniature__title-text"><a href="#" class="article__link">Все, что нужно этой осенью</a></div>
+
+              <div class="article-miniature_text-more"><a href="#" class="article__link link-short link-short-mobile">Читать дальше>></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-content__article-miniature page-content__article-mobile-miniature _article-mobile-miniature_second">
+            <div class="article-minuature__promo mobile-promo_miniature-wrap">
+              <img src="img/article_mini_two.png" alt="Спасаем кожу от воздействия городской среды<.">
+
+            </div>
+
+            <div class="article-miniature__title-wrap">
+              <div class="article-miniature__title-text _article-mobile-miniature_second"><a href="#" class="article__link">Спасаем кожу от воздействия городской среды</a></div>
+
+              <div class="article-miniature__text-wrap">
+                <div class="article-miniature_text-more"><a href="#" class="article__link link-short link-short-mobile">Читать дальше>></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="footer__skin skin">
+      <div class="footer__content">
+        <div class="footer__col _first">
+          <div class="footer__logo footer-logo">
+            <a href="catalog.html"> <img class="logo-ultraceuticals" src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Получить консультацию врача</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">О бренде</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Статьи</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Каталог Ultraceutical</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Найти клинику</a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright"><a href="#" class="footer-links__link-copyright">&copy; Интернет-магазин профессиональной косметики Authentica.love</a></div>
+
+        <div class="footer__col _second">
+
+          <div class="footer__logo footer-logo"><img src="img/logo_authentica.png" alt="Профессиональная косметика на сайте Authentica" class="logo-authentica" />
+          </div>
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/authenticalove/" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+            <a href="https://vk.com/authenticalove" class="footer-icon _vk" rel="nofollow" target="_blank"></a>
+            <a href="https://www.facebook.com/authenticalove/" class="footer-icon _fb" rel="nofollow" target="_blank"></a>
+            <a href="#" class="footer-icon _yt" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <div class="footer-links__item email-label"><a href="mailto:shop@authentica.love" class="footer-links__link">shop@authentica.love</a></div>
+          <div class="footer-links__item"><a href="#" class="footer-links__link">О компании</a></div>
+        </div>
+
+        <!--/noindex-->
+        <div class="footer__col _third">
+          <div class="footer-col__label">
+            <p>Общая информация</div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Контакты</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Отследить заказ</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Оплата</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Доставка</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Договор Оферты</a>
+            </li>
+            <li class="footer-links__item">
+              <a target="_blank" href="#" class="footer-links__link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__pay footer-pay">
+
+            <img src="img/pay.png" alt="" />
+
+          </div>
+
+        </div>
+
+        <div class="footer__col _last">
+          <div class="footer__phone-pay">
+            <div class="footer__phone comagic_phone">
+
+              <a href="tel:+78001002849">(800) 100 28 49</a><br>
+              <a href="tel:+78001002849">(800) 100 28 49</a>
+
+            </div>
+          </div>
+          <div class="footer__subscribe footer-subscribe">
+            <div class="footer-links__item _link subscribe-link-text">Подписаться на новости и акции</div>
+            <div id="asd_subscribe_res" style="display: none;"></div>
+            <form action="/" method="post" class="footer-subscribe__form" id="asd_subscribe_form">
+              <input type="hidden" name="sessid" id="sessid" value="41083ea5dd64be7bb1911ff5c446889f" /> <input type="hidden" name="asd_subscribe" value="Y" />
+              <input type="hidden" name="charset" value="UTF-8" />
+              <input type="hidden" name="site_id" value="s1" />
+              <input type="hidden" name="asd_rubrics" value="1" />
+              <input type="hidden" name="asd_format" value="html" />
+              <input type="hidden" name="asd_show_rubrics" value="N" />
+              <input type="hidden" name="asd_not_confirm" value="Y" />
+              <input type="hidden" name="asd_key" value="37f387a2fea4ed12662082adda71649a" />
+              <input placeholder="Введите свой email" class="footer-subscribe__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+              <label class="help" style="display: none">E-mail введён неверно</label>
+              <input class="footer-subscribe__btn _active-button" type="submit" name="asd_submit" id="asd_subscribe_submit" value="Подписаться" />
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!---ДОБАВЛЕНА МОБИЛЬНАЯ ВЕРСИЯ ФУТЕРА-->
+  <div class="footer__mobile-menu_wrap">
+    <div class="footer__skin skin">
+      <div class="footer__content">
+        <div class="footer-mobile__col  _options-col">
+          <div class="footer__logo footer-logo">
+            <a href="catalog.html"> <img class="logo-ultraceuticals" src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Получить консультацию врача</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">О бренде</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Статьи</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Каталог Ultraceutical</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Найти клинику</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-mobile__col  _phone-col">
+          <div class="footer__phone-pay">
+            <div class="footer__phone comagic_phone">
+
+              <a href="tel:+78001002849">(800) 100 28 49</a><br><br>
+              <a href="tel:+78001002849">(800) 100 28 49</a>
+
+            </div>
+          </div>
+          <div class="footer__logo footer-logo"><img src="img/logo_authentica.png" alt="Профессиональная косметика на сайте Authentica" class="logo-authentica" />
+          </div>
+
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/authenticalove/" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+            <a href="https://vk.com/authenticalove" class="footer-icon _vk" rel="nofollow" target="_blank"></a>
+            <a href="https://www.facebook.com/authenticalove/" class="footer-icon _fb" rel="nofollow" target="_blank"></a>
+            <a href="#" class="footer-icon _yt" rel="nofollow" target="_blank"></a>
+          </div>
+          <div class="footer-links__item email-label"><a href="mailto:shop@authentica.love" class="footer-links__link">shop@authentica.love</a></div>
+          <div class="footer-links__item"><a href="#" class="footer-links__link">О компании</a></div>
+
+        </div>
+
+        <div class="footer-mobile__col _mobile-common-info-col">
+          <div class="footer-col__label">
+            Общая информация </div>
+
+          <ul class="ooter__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Контакты</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Отследить заказ</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Оплата</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Доставка</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Договор Оферты</a>
+            </li>
+            <li class="footer-links__item">
+              <a target="_blank" href="#" class="footer-links__link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-mobile__col _mobile-pay-col">
+          <div class="footer__pay footer-pay">
+
+            <img src="img/mobile/pay.png" alt="" />
+
+          </div>
+
+        </div>
+
+        <div class="footer__subscribe footer-subscribe">
+
+          <div style="display: none;"></div>
+          <form action="/" method="post" class="footer-subscribe__form">
+            <input type="hidden" name="sessid" value="41083ea5dd64be7bb1911ff5c446889f" /> <input type="hidden" name="asd_subscribe" value="Y" />
+            <input type="hidden" name="charset" value="UTF-8" />
+            <input type="hidden" name="site_id" value="s1" />
+            <input type="hidden" name="asd_rubrics" value="1" />
+            <input type="hidden" name="asd_format" value="html" />
+            <input type="hidden" name="asd_show_rubrics" value="N" />
+            <input type="hidden" name="asd_not_confirm" value="Y" />
+            <input type="hidden" name="asd_key" value="37f387a2fea4ed12662082adda71649a" />
+            <input placeholder="Введите свой email" class="footer-subscribe__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+            <label class="help" style="display: none">E-mail введён неверно</label>
+            <input class="footer-subscribe__btn _active-button" type="submit" name="asd_submit"  value="Подписаться на новости и акции" />
+          </form>
+        </div>
+        <div class="copyright"><a href="#" class="footer-links__link-copyright">&copy; Интернет-магазин профессиональной косметики Authentica.love</a></div>
+      </div>
+
+    </div>
+  </div>
+  <!---КОНЕЦ ВСТАВКИ-->
+</body>
+
+</html>

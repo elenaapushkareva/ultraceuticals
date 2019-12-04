@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Карточка товара</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="page product-item-card" data-page="">
+  <div class="header">
+    <!--Добавляем мобильное меню-->
+
+    <div class="header__menu-ico i-menu header-mobile-menu">
+      <div class="header__mobile-menu_item mobile-menu_burger"><a href="#"><img src="img/mobile/burger.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_search"><a href="#"><img src="img/mobile/search.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_logo_uc"><a href="#"><img src="img/mobile/logo.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_auth"><a href="#"><img src="img/mobile/user.png" alt=""></a></div>
+      <div class="header__mobile-menu_item mobile-menu_basket"><a href="#"><img src="img/mobile/shop_card.png" alt=""></a></div>
+
+    </div>
+
+    <!--!!!КОНЕЦ ВСТАВКИ-->
+    <div class="header-bg">
+      <div class="header-top">
+        <div class="header-top__skin skin">
+          <div class="header__menu-ico i-menu" data-popup-opener="mobile-menu" data-popup-wrapper="mobile-menu-wrapper" style="display: none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header-top__logo logo">
+            <a href="catalog.html"> <img src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+
+          </div>
+
+          <ul class="header-top-menu">
+            <li class="header-top-menu__item _phone">
+              <span class="comagic_phone">(904) 666 09 08</span>
+            </li>
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link _partner">Authentica Love</a>
+            </li>
+
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link">Войти</a>
+            </li>
+            <li class="header-top-menu__item">
+              <a href="#" class="header-top-menu__link"><img src="img/basket.png" alt=""></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-menu" data-fixed-nav="">
+      <ul class="header-menu__skin skin" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link">
+                                                    О бренде                                                                                          </a>
+        </li>
+        <li data-buy-opener class="header-menu__item" itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link _active">
+                                                    Каталог                                                                    </a>
+        </li>
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link">
+                                                    Статьи                                                                                           </a>
+        </li>
+        <li class="header-menu__item " itemprop="name">
+          <a itemprop="url" href="#" class="header-menu__link ">
+                                                    Салоны                                                                                          </a>
+        </li>
+
+      </ul>
+      <div class="header-menu__item">
+        <a href="/search/" class="header-menu__loupe header-loupe">
+            <img src="img/lupe.png" alt="">
+                                                                    </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content page-product-item">
+    <!--Хлебные крошки-->
+    <div class="breadcrumbs" id="navigation" itemscope itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" class="breadcrumbs__link"><span itemprop="name">Главная страница<meta itemprop="position" content="0"></span></a>
+      </span> / <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" class="breadcrumbs__link"><span itemprop="name">Каталог<meta itemprop="position" content="1"></span></a>
+      </span> / <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" class="breadcrumbs__link"><span itemprop="name">Очищение<meta itemprop="position" content="2"></span></a>
+      </span> / <span class="_current-breadcrumb"> Ультра B2 мицеллярная вода </span></div>
+
+    <div class="catalog-item-layout" itemscope itemtype="http://schema.org/Product">
+
+      <div class="catalog-item-layout__left">
+        <div class="product-preview">
+          <div class="btn-prev-item"><a class="btn-prev-item__link" href="#"><img src="img/mobile/arrow_back.png" alt=""> </a></div>
+          <div class="product-preview__list product-preview-list">
+            <div class="product-preview-list__item _active-item _preview-one"><a itemprop="url" href="#" class="product-preview__link"> </a></div>
+            <div class="product-preview-list__item _preview-two"><a itemprop="url" href="#" class="product-preview__link "> </a></div>
+          </div>
+          <div class="product-preview__content">
+            <div class="product-preview__photo" style="overflow: hidden;" data-item-view-photos>
+
+              <div class="product-preview__cover">
+                <img itemprop="image" src="img/product_item/product_item_image.png" alt="Ультра B2 мицеллярная вода Ultra B2 Micellar Solution в интернет-магазине Ultraceuticals" title="Ультра B2 мицеллярная вода Ultra B2 Micellar Solution | фото № 1" />
+              </div>
+
+              <div class="product-preview__cover _hidden">
+                <img itemprop="image" src="#" class="_hidden" alt="" title="Ультра B2 мицеллярная вода Ultra B2 Micellar Solution | фото № 2" />
+              </div>
+            </div>
+          </div>
+          <div class="btn-next-item"><a class="btn-next-item__link" href=""><img src="img/mobile/arrow_next.png" alt="#"> </a></div>
+        </div>
+        <div class="catalog-item-zoom-placeholder magnifier-preview"></div>
+      </div>
+
+      <div class="catalog-item-layout__right">
+
+        <div class="catalog-item">
+
+          <div class="product__desc product_cat-cleaning">
+            <a href="#" class="catalog-item__type item">Очищение</a></div>
+          <h1 class="title_item-name">Ультра B2 мицеллярная вода<br> Ultra B2 Micellar Solution</h1>
+          <div class="product__price _product-price_mobile-main">
+            2 750 руб. </div>
+
+          <div class="product__volume">
+            200 мл </div>
+
+        </div>
+
+        <div class="catalog-item__price catalog-item-price" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+          <meta itemprop="lowPrice" content="1450">
+          <meta itemprop="priceCurrency" content="RUB">
+
+          <span class="catalog-item-price__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <meta itemprop="price" content="1450">
+                  <meta itemprop="priceCurrency" content="RUB" />
+                    <link itemprop="availability" href="https://schema.org/InStock" />
+                    <link itemprop="url" href="#" />
+
+                                        1 450 руб.               </span>
+        </div>
+
+        <div class="action-wrapper">
+
+          <div class="catalog-item_warning_wrap">
+            <div class="catalog-item_warning_title">ПРЕДУПРЕЖДЕНИЕ</div>
+            <div class="catalog-item_warning_text">Этот продукт содержит высокий процент активных ингредиентов. Перед применением убедительно просим предварительно проконсультироваться со специалистом Ultraceuticals.</div>
+            <div class="catalog-item_warning_agreement">
+              <form class="agreement"><input type="checkbox" class="catalog-filter-cat__check cat__check-mobile" checked="checked" />
+                <span class="catalog-filter__text">Я получил(а) консультацию специалиста <span>Ultraceuticals</span></span>
+                <div class="_active-button _button-act _hidden"><a href="#">Получить консультацию</a></div>
+              </form>
+            </div>
+          </div>
+
+          <div class="catalog-item_feedback__form _hidden">
+            <div class="catalog-item_feedback__title"><span>Форма обратной связи </span>
+              <div class="catalog-item_feedback__close-button"><a href="catalog-item_feedback__close-button__link"><img src="img/search/close.png" alt=""></a></div>
+            </div>
+            <form action="/" method="post" class="catalog-item_feedback__inner-form">
+              <input placeholder="Ирина" class="catalog-item_feedback__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+              <input placeholder="+7 905 123 45 67" class="catalog-item_feedback__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+
+              <input class="catalog-item-action__item _active-button _button-act" type="submit" name="asd_submit" id="asd_subscribe_submit" value="Отправить" />
+            </form>
+                    <div class="user-agreement-policy-wrap _feedback__agreement-police">
+              Нажимая кнопку «Отправить», вы подтверждаете, что ознакомлены <br> и согласны с условиями <a href="#">пользовательского соглашения</a>
+            </div>
+          </div>
+          <div class="catalog-item-action__item _cart-button _active-button">
+            <a itemprop="url" href="#" class="catalog-item-action__link "><span class="catalog-item-action__text">Добавить в корзину</span>
+                  <span class="catalog-item-action__text _cart-button_disabled _hidden">Добавлено!</span></a>
+          </div>
+        </div>
+
+        <div class="catalog-item__desc catalog-item-desc">
+          <div class="catalog-item-desc__tabs catalog-item-tabs">
+            <div class="catalog-item-tabs__content">
+              <div class="catalog-item-tabs__item _inactive-tab" data-tab-opener="0">
+                <a itemprop="url" href="#" class="catalog-item-tabs__link">Мнение эксперта </a></div>
+              <div class="catalog-item-tabs__item _active-tab" data-tab-opener="1">
+                <a itemprop="url" href="#" class="catalog-item-tabs__link">Описание </a></div>
+              <div class="catalog-item-tabs__item _inactive-tab" data-tab-opener="2">
+                <a itemprop="url" href="#" class="catalog-item-tabs__link">Состав </a></div>
+              <div class="catalog-item-tabs__item _inactive-tab" data-tab-opener="3">
+                <a itemprop="url" href="#" class="catalog-item-tabs__link">Способ применения </a></div>
+            </div>
+          </div>
+          <div class="catalog-item-desc__content" data-tab="0">
+            <div class="catalog-item-text">
+              <div class="catalog-item-text__content _catalog-expert-opinion _hidden" itemprop="expert-opinion">
+                <div class="catalog-item-text__expert-details">
+                  <div class="catalog-item-text__expert-photo"><img src="img/product_item/expert_photo.png" alt="Ксения Поминова, тренер Ultraceuticals"></div>
+                  <div class="catalog-item-text__expert-position">КСЕНИЯ ПОМИНОВА <br> <span>тренер Ultraceuticals</span></div>
+                </div>
+                <div class="catalog-item-text__quote">
+                  <div class="catalog-item-text__quote-img"><img src="img/product_item/quote.png" alt=""></div>
+                  <div class="catalog-item-text__quote-text">Деликатное средство для очищения кожи 3 в 1, которое эффективно удаляет загрязнения и водойский макияж с лица, губ и глаз. Содержит в своем составе мицеллы, которые работают как «магнит» для всех видов загрязнений.</div>
+                </div>
+
+              </div>
+
+              <div class="catalog-item-desc__content" data-tab="1">
+                <div class="catalog-item-text">
+                  <div class="catalog-item-text__content" itemprop="description">
+                    Деликатное средство для очищения кожи 3 в 1. Эффективно удаляет загрязнения и макияж с лица, губ и глаз. Содержит в своем составе «мицеллы», которые работают как магнит для загрязнений, макияжа, а также излишков себума, не раздражая кожу. Комплекс В2
+                    - витамин В3 (Ниацинамид) и провитамин В5 (Пантенол) способствует глубокому увлажнению, освежает и успокаивает кожу. Аллантоин поддерживает естественный водный баланс кожи. </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="catalog-item-desc__content _hidden">
+              <div class="catalog-item-text">
+                <div class="catalog-item-text__content">
+                  <!-- Содержание блока состав-->
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="catalog-item-desc__content _hidden">
+            <div class="catalog-item-text">
+              <div class="catalog-item-text__content">
+                <!-- Содержание блока способ применения-->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!--Вставка мобильной версии вкладок"-->
+        <div class="catalog-item__desc-mobile">
+
+          <div class="catalog-filter-cat__name catalog-filter-cat__label _mobile_tab_active">Мнение эксперта <span class="catalog-filter-cat_opened _icon-marker"></span></div>
+
+          <div class="catalog-item-text__content _catalog-expert-opinion " itemprop="expert-opinion">
+            <div class="catalog-item-text__expert-details">
+              <div class="catalog-item-text__expert-photo"><img src="img/product_item/expert_photo.png" alt="Ксения Поминова, тренер Ultraceuticals"></div>
+              <div class="catalog-item-text__expert-position">КСЕНИЯ ПОМИНОВА <br> <span>тренер Ultraceuticals</span></div>
+            </div>
+            <div class="catalog-item-text__quote">
+              <div class="catalog-item-text__quote-img"><img src="img/product_item/quote.png" alt=""></div>
+              <div class="catalog-item-text__quote-text">Деликатное средство для очищения кожи 3 в 1, которое эффективно удаляет загрязнения и водойский макияж с лица, губ и глаз. Содержит в своем составе мицеллы, которые работают как «магнит» для всех видов загрязнений.</div>
+            </div>
+
+          </div>
+
+          <div class="catalog-filter-cat__name catalog-filter-cat__label _mobile_tab_inactive">Описание <span class="catalog-filter-cat_closed _icon-marker"></span></div>
+
+          <div class="catalog-item-text__content" style="display: none;" itemprop="description">
+            Деликатное средство для очищения кожи 3 в 1. Эффективно удаляет загрязнения и макияж с лица, губ и глаз. Содержит в своем составе «мицеллы», которые работают как магнит для загрязнений, макияжа, а также излишков себума, не раздражая кожу. Комплекс В2
+            - витамин В3 (Ниацинамид) и провитамин В5 (Пантенол) способствует глубокому увлажнению, освежает и успокаивает кожу. Аллантоин поддерживает естественный водный баланс кожи. </div>
+          <div class="catalog-filter-cat__name catalog-filter-cat__label _mobile_tab_inactive">Состав<span class="catalog-filter-cat_closed _icon-marker"></span></div>
+
+          <div class="catalog-filter-cat__name catalog-filter-cat__label _mobile_tab_inactive">Способ применения <span class="catalog-filter-cat_closed _icon-marker"></span></div>
+
+        </div>
+
+        <!--КОНЕЦ ВСТАВКИ-->
+      </div>
+    </div>
+
+    <div class="catalog-item-solutions-layout" id="solution" data-solution="">
+
+      <div class="catalog-item-solutions-layout__col">
+        <div class="catalog-item-solution">
+          <div class="content-title">
+            <a href="#" class="content-title__link">
+                        Видео                       <span>[1]</span>
+                    </a>
+          </div>
+          <div class="catalog-item-blog-cols">
+            <div class="catalog-item-video-cols__item _catalog-video-item">
+              <a href="#" class="video-item">
+                <div class="video-item__img video-item-one__img">
+                  <div class="blog-item__overlay"></div>
+                </div>
+                <div class="video-item__title">
+                  Все, что нужно этой осенью </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-item-solutions-layout__col">
+        <div class="catalog-item-solution">
+          <div class="content-title">
+            <a href="#" class="content-title__link">
+                        Блог                        <span>[2]</span>
+                    </a>
+          </div>
+          <div class="catalog-item-blog-cols">
+            <div class="catalog-item-blog-cols__item _catalog-blog-item">
+              <a href="#" class="blog-item">
+                <div class="blog-item__img blog-item-one__img">
+                  <div class="blog-item__overlay">
+                    <div class="blog-item-button _hidden">Читать дальше</div>
+                  </div>
+                </div>
+                <div class="blog-item__title">
+                  Приятного полета </div>
+              </a>
+            </div>
+            <div class="catalog-item-blog-cols__item _catalog-blog-item">
+              <a href="#" class="blog-item">
+                <div class="blog-item__img blog-item-two__img">
+                  <div class="blog-item__overlay">
+                    <div class="blog-item-button _hidden">Читать дальше</div>
+                  </div>
+                </div>
+                <div class="blog-item__title">
+                  Готовимся к зиме </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="articles-product_recommendations mobile-recomendations_wrap">
+    <span class="articles-product_recommendation-title">
+              <h2><a href="#">C этим товаром также покупают</a></h2></span>
+    <span><a href="#" class="articles-product_showall">Показать все</a></span>
+  </div>
+
+  <div class="articles-product_recommended-items">
+    <div class="btn-prev-item btn-prev-item-small"><a class="btn-prev-item__link" href="#"><img src="img/mobile/arrow_back.png" alt=""> </a></div>
+    <div class="products__col _mobile-cat_product-hidden ">
+      <div class="product">
+        <a class="product__name" href="#">
+          <div class="product__img product-bmc">
+          </div>
+          <div class="product__quick-actions">
+            <div class="product__quick-view _active-button"><img src="img/search.png" alt="">Быстрый просмотр
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+          <div class="product__desc product_cat-moisture">
+            Увлажнение</div>
+
+          <div class="product__title">
+            <div class="h2">Ультра увлажняющий крем<br> с эффектом отбеливания Ultra Brightening Moisturiser Cream</div>
+          </div>
+
+          <div class="product__price">
+            4 200 руб. </div>
+
+          <div class="product__volume">
+            50 мл </div>
+          <!----!!!!Добавлен блок с кнопками мобильными-->
+          <div class="product__quick-actions-mobile">
+            <div class="product__quick-view _active-button">Подробнее
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+
+          <!----!!!!Конец вставки-->
+        </a>
+
+      </div>
+    </div>
+
+    <div class="products__col _mobile-cat_product-hidden">
+      <div class="product">
+        <a class="product__name" href="#">
+          <div class="product__img product-hl">
+          </div>
+          <div class="product__quick-actions">
+            <div class="product__quick-view _active-button"><img src="img/search.png" alt="">Быстрый просмотр
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+          <div class="product__desc product_cat-moisture">
+            Увлажнение</div>
+
+          <div class="product__title">
+            <div class="h2">Ультра увлажняющий лосьон<br> Ultra Hydrating Lotion</div>
+          </div>
+
+          <div class="product__price">
+            2 750 руб. </div>
+
+          <div class="product__volume">
+            75 мл </div>
+          <!----!!!!Добавлен блок с кнопками мобильными-->
+          <div class="product__quick-actions-mobile">
+            <div class="product__quick-view _active-button">Подробнее
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+
+          <!----!!!!Конец вставки-->
+        </a>
+
+      </div>
+    </div>
+    <div class="products__col _mobile-cat_product-hidden ">
+      <div class="product">
+        <a class="product__name" href="#">
+          <div class="product__img product-mc">
+          </div>
+          <div class="product__quick-actions">
+            <div class="product__quick-view _active-button"><img src="img/search.png" alt="">Быстрый просмотр
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+          <div class="product__desc product_cat-moisture">
+            Увлажнение</div>
+
+          <div class="product__title">
+            <div class="h2">Ультра увлажняющий крем с церамидами Ultra Moisturiser Cream</div>
+          </div>
+
+          <div class="product__price">
+            2 750 руб. </div>
+
+          <div class="product__volume">
+            75 мл </div>
+          <!----!!!!Добавлен блок с кнопками мобильными-->
+          <div class="product__quick-actions-mobile">
+            <div class="product__quick-view _active-button">Подробнее
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+
+          <!----!!!!Конец вставки-->
+        </a>
+
+      </div>
+    </div>
+    <div class="products__col ">
+      <div class="product">
+        <a class="product__name" href="#">
+          <div class="product__img product-se">
+          </div>
+          <div class="product__quick-actions">
+            <div class="product__quick-view _active-button"><img src="img/search.png" alt="">Быстрый просмотр
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+
+          <div class="product__desc product_cat-cleaning">
+            Очищение</div>
+
+          <div class="product__title">
+            <div class="h2">Ультра мягкое средство для снятия<br> макияжа с глаз Ultra Soothing Eye Make-up Remover</div>
+          </div>
+
+          <div class="product__price">
+            1 900 руб. </div>
+
+          <div class="product__volume">
+            130 мл </div>
+          <!----!!!!Добавлен блок с кнопками мобильными-->
+          <div class="product__quick-actions-mobile">
+            <div class="product__quick-view _active-button">Подробнее
+            </div>
+            <div class="product__quick-add2basket _active-button" data-add-to-cart><img src="img/basket.png" alt="Добавить товар в корзину">
+            </div>
+          </div>
+
+          <!----!!!!Конец вставки-->
+        </a>
+
+      </div>
+    </div>
+
+    <div class="btn-next-item btn-next-item-small"><a class="btn-next-item__link" href="#"><img src="img/mobile/arrow_next.png" alt=""> </a></div>
+  </div>
+
+  <div class="footer">
+    <div class="footer__skin skin">
+      <div class="footer__content">
+        <div class="footer__col _first">
+          <div class="footer__logo footer-logo">
+            <a href="catalog.html"> <img class="logo-ultraceuticals" src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Получить консультацию врача</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">О бренде</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Статьи</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Каталог Ultraceutical</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Найти клинику</a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright"><a href="#" class="footer-links__link-copyright">&copy; Интернет-магазин профессиональной косметики Authentica.love</a></div>
+
+        <div class="footer__col _second">
+
+          <div class="footer__logo footer-logo"><img src="img/logo_authentica.png" alt="Профессиональная косметика на сайте Authentica" class="logo-authentica" />
+          </div>
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/authenticalove/" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+            <a href="https://vk.com/authenticalove" class="footer-icon _vk" rel="nofollow" target="_blank"></a>
+            <a href="https://www.facebook.com/authenticalove/" class="footer-icon _fb" rel="nofollow" target="_blank"></a>
+            <a href="#" class="footer-icon _yt" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <div class="footer-links__item email-label"><a href="mailto:shop@authentica.love" class="footer-links__link">shop@authentica.love</a></div>
+          <div class="footer-links__item"><a href="#" class="footer-links__link">О компании</a></div>
+        </div>
+
+        <!--/noindex-->
+        <div class="footer__col _third">
+          <div class="footer-col__label">
+            <p>Общая информация</div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Контакты</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Отследить заказ</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Оплата</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Доставка</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Договор Оферты</a>
+            </li>
+            <li class="footer-links__item">
+              <a target="_blank" href="#" class="footer-links__link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__pay footer-pay">
+
+            <img src="img/pay.png" alt="" />
+
+          </div>
+
+        </div>
+
+        <div class="footer__col _last">
+          <div class="footer__phone-pay">
+            <div class="footer__phone comagic_phone">
+
+              <a href="tel:+78001002849">(800) 100 28 49</a><br>
+              <a href="tel:+78001002849">(800) 100 28 49</a>
+
+            </div>
+          </div>
+          <div class="footer__subscribe footer-subscribe">
+            <div class="footer-links__item _link subscribe-link-text">Подписаться на новости и акции</div>
+            <div id="asd_subscribe_res" style="display: none;"></div>
+            <form action="/" method="post" class="footer-subscribe__form" id="asd_subscribe_form">
+              <input type="hidden" name="sessid" id="sessid" value="41083ea5dd64be7bb1911ff5c446889f" /> <input type="hidden" name="asd_subscribe" value="Y" />
+              <input type="hidden" name="charset" value="UTF-8" />
+              <input type="hidden" name="site_id" value="s1" />
+              <input type="hidden" name="asd_rubrics" value="1" />
+              <input type="hidden" name="asd_format" value="html" />
+              <input type="hidden" name="asd_show_rubrics" value="N" />
+              <input type="hidden" name="asd_not_confirm" value="Y" />
+              <input type="hidden" name="asd_key" value="37f387a2fea4ed12662082adda71649a" />
+              <input placeholder="Введите свой email" class="footer-subscribe__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+              <label class="help" style="display: none">E-mail введён неверно</label>
+              <input class="footer-subscribe__btn _active-button" type="submit" name="asd_submit" id="asd_subscribe_submit" value="Подписаться" />
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!---ДОБАВЛЕНА МОБИЛЬНАЯ ВЕРСИЯ ФУТЕРА-->
+  <div class="footer__mobile-menu_wrap">
+    <div class="footer__skin skin">
+      <div class="footer__content">
+        <div class="footer-mobile__col  _options-col">
+          <div class="footer__logo footer-logo">
+            <a href="catalog.html"> <img class="logo-ultraceuticals" src="img/logo.png" alt="" title="ULTRACEUTICALS. Выдающийся космецевтический бренд" /></a>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+          </div>
+
+          <ul class="footer__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Получить консультацию врача</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">О бренде</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Статьи</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Каталог Ultraceutical</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Найти клинику</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-mobile__col  _phone-col">
+          <div class="footer__phone-pay">
+            <div class="footer__phone comagic_phone">
+
+              <a href="tel:+78001002849">(800) 100 28 49</a><br><br>
+              <a href="tel:+78001002849">(800) 100 28 49</a>
+
+            </div>
+          </div>
+          <div class="footer__logo footer-logo"><img src="img/logo_authentica.png" alt="Профессиональная косметика на сайте Authentica" class="logo-authentica" />
+          </div>
+
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/authenticalove/" class="footer-icon _insta" rel="nofollow" target="_blank"></a>
+            <a href="https://vk.com/authenticalove" class="footer-icon _vk" rel="nofollow" target="_blank"></a>
+            <a href="https://www.facebook.com/authenticalove/" class="footer-icon _fb" rel="nofollow" target="_blank"></a>
+            <a href="#" class="footer-icon _yt" rel="nofollow" target="_blank"></a>
+          </div>
+          <div class="footer-links__item email-label"><a href="mailto:shop@authentica.love" class="footer-links__link">shop@authentica.love</a></div>
+          <div class="footer-links__item"><a href="#" class="footer-links__link">О компании</a></div>
+
+        </div>
+
+        <div class="footer-mobile__col _mobile-common-info-col">
+          <div class="footer-col__label">
+            Общая информация </div>
+
+          <ul class="ooter__links footer-links">
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Контакты</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Отследить заказ</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Оплата</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Доставка</a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#" class="footer-links__link">Договор Оферты</a>
+            </li>
+            <li class="footer-links__item">
+              <a target="_blank" href="#" class="footer-links__link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-mobile__col _mobile-pay-col">
+          <div class="footer__pay footer-pay">
+
+            <img src="img/mobile/pay.png" alt="" />
+
+          </div>
+
+        </div>
+
+        <div class="footer__subscribe footer-subscribe">
+
+          <div style="display: none;"></div>
+          <form action="/" method="post" class="footer-subscribe__form">
+            <input type="hidden" name="sessid" value="41083ea5dd64be7bb1911ff5c446889f" /> <input type="hidden" name="asd_subscribe" value="Y" />
+            <input type="hidden" name="charset" value="UTF-8" />
+            <input type="hidden" name="site_id" value="s1" />
+            <input type="hidden" name="asd_rubrics" value="1" />
+            <input type="hidden" name="asd_format" value="html" />
+            <input type="hidden" name="asd_show_rubrics" value="N" />
+            <input type="hidden" name="asd_not_confirm" value="Y" />
+            <input type="hidden" name="asd_key" value="37f387a2fea4ed12662082adda71649a" />
+            <input placeholder="Введите свой email" class="footer-subscribe__field" type="text" name="asd_email" value="" data-required="" data-email="" data-mask-email="" />
+            <label class="help" style="display: none">E-mail введён неверно</label>
+            <input class="footer-subscribe__btn _active-button" type="submit" name="asd_submit" value="Подписаться на новости и акции" />
+          </form>
+        </div>
+        <div class="copyright"><a href="#" class="footer-links__link-copyright">&copy; Интернет-магазин профессиональной косметики Authentica.love</a></div>
+      </div>
+
+    </div>
+  </div>
+  <!---КОНЕЦ ВСТАВКИ-->
+</body>
+
+</html>
