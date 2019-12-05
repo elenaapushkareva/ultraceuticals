@@ -2823,6 +2823,42 @@ font-size: 14px;
 line-height: 17px;
 }
 
+.page-article .article__description_no-more-pore .article-main-pic-mobile {
+  display: none;
+}
+
+.page-article .article__description_no-more-pore .article-pic-middle-mobile {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.page-article .article__description_no-more-pore p, 
+.page-article .article__description_no-more-pore h2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.page-article .article__cite-text_nomorepore {
+  font-size: 14px;
+
+}
+
+.page-article .article__cite-wrap  {
+  height: 190px;
+}
+
+
+
+.page-article .products__col {
+
+margin-bottom: 50px;
+
+}
+
+
 }
 
 @media (min-width: 549px) and (max-width: 685px) {
