@@ -2664,8 +2664,18 @@ line-height: 15px;
   text-decoration: underline;
 }
 
+@media (min-width: 686px) and (max-width: 788px) {
+  .page-product-item .catalog-item-desc__tabs {
+    overflow: hidden;
+  }
 
+  .page-product-item .catalog-item-desc__tabs a {
+    font-size: 11px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
 
+}  
 
 
 @media (min-width: 769px) and (max-width: 870px) {
@@ -2902,6 +2912,15 @@ margin-bottom: 50px;
 
   .page-catalog .catalog-layout__sidebar {
     display: none;
+  }
+  .page-product-item .catalog-item-desc__tabs {
+    overflow: hidden;
+  }
+
+  .page-product-item .catalog-item-desc__tabs a {
+    font-size: 10px;
+    margin-right: 2px;
+    margin-left: 3px;
   }
 
   .mobile_btn-filter {
