@@ -2900,6 +2900,10 @@ margin-bottom: 50px;
     width: 250px;
   }
 
+  .page-catalog .catalog-layout__sidebar {
+    display: none;
+  }
+
   .mobile_btn-filter {
     width: 100%;
     position: relative;
