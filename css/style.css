@@ -2500,12 +2500,29 @@ input[class="_form-checkbox"]:hover + span::before {
 .btn-prev-item,
 ._product-price_mobile-main,
 .slider-mobile-pagination-wrap,
-.beautyshops-detail__close-btn-mobile {
+.beautyshops-detail__close-btn-mobile, 
+.mobile-menu_open-burger_wrap {
   display: none;
 }
 
 .footer-subscribe__btn:hover {
   background: white;
+}
+
+.footer-pay img {
+  width: 98%;
+  max-width: 236px;
+  height: auto;
+}
+
+.copyright {
+  max-width: 45%;
+}
+
+._first .footer-logo img {
+  width: 98%;
+  height: auto;
+  max-width: 180px;
 }
 
 .page-product-item .agreement input[type="checkbox"] {
@@ -3055,6 +3072,8 @@ margin-bottom: 50px;
     align-items: center;
     display: flex;
   }
+
+ 
 
   .copyright {
     position: relative;
