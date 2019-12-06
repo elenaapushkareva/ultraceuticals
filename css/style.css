@@ -2515,9 +2515,7 @@ input[class="_form-checkbox"]:hover + span::before {
   height: auto;
 }
 
-.copyright {
-  max-width: 45%;
-}
+
 
 ._first .footer-logo img {
   width: 98%;
@@ -2674,6 +2672,10 @@ line-height: 15px;
     margin-right: 2px;
     margin-left: 2px;
   }
+
+  .copyright {
+  max-width: 45%;
+}
 
 }  
 
