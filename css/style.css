@@ -451,6 +451,7 @@
 .content-wrap_item:hover {
   border-bottom: 2px solid #afd952;
 }
+
 .footer {
   margin-bottom: 40px;
 }
@@ -638,6 +639,283 @@
   font-size: 14px;
   color: rgba(99, 101, 106, 0.6);
 }
+
+.footer .footer-logo {
+  margin-bottom: 21px;
+}
+
+.footer ._second .footer-icons {
+  margin-bottom: 15px;
+}
+
+.footer ._first .footer-icons {
+  margin-bottom: 22px;
+}
+
+.footer ._third .footer-links {
+ margin-top: 18px;
+
+}
+
+.footer .footer-col__label {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #63656a;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -10px;
+}
+
+.footer .footer__pay {
+  margin-top: 17px;
+}
+
+.footer .footer__phone a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: rgba(99, 101, 106, 0.8);
+}
+
+.footer .footer__phone a:first-child {
+  padding-bottom: 6px;
+}
+
+.footer .footer__phone-pay {
+  margin-bottom: 56px;
+}
+
+
+
+
+/*
+.footer {
+  margin-bottom: 40px;
+}
+
+.footer__skin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.footer__skin::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(99, 101, 106, 0.2);
+  right: 0;
+  display: block;
+}
+
+.footer__content {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.footer__col {
+  width: 25%;
+}
+.logo-ultraceuticals {
+  width: 180px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo-authentica {
+  width: 127px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-logo {
+  margin-bottom: 21px;
+}
+
+
+._second .footer-icons {
+  margin-bottom: 15px;
+}
+
+._first .footer-icons {
+  margin-bottom: 22px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/sprite.png);
+  display: flex;
+}
+
+._insta {
+  background-position: 0px -24px;
+}
+
+._insta:hover {
+  background-position: -24px -24px;
+}
+
+._vk {
+  background-position: -48px 0px;
+}
+
+._vk:hover {
+  background-position: -48px -24px;
+}
+
+._fb {
+  background-position: 0px 0px;
+}
+
+._fb:hover {
+  background-position: -24px 0px;
+}
+
+._yt {
+  background-position: 0px -48px;
+}
+
+._yt:hover {
+  background-position: -24px -48px;
+}
+
+.footer-links {
+  list-style-position: inside;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-links__item {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.footer-links__link {
+  text-decoration: none;
+  color: #63656a;
+}
+
+.footer-links__link:hover {
+  text-decoration: underline;
+}
+
+._second .footer-icons {
+  width: 138px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1px;
+}
+
+
+._third .footer-links {
+ margin-top: 18px;
+
+}
+
+.footer-col__label {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #63656a;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -10px;
+}
+
+.footer__pay {
+  margin-top: 17px;
+}
+
+.footer__phone a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: rgba(99, 101, 106, 0.8);
+}
+
+.footer__phone a:first-child {
+  padding-bottom: 6px;
+}
+
+.footer__phone-pay {
+  margin-bottom: 56px;
+}
+
+.footer__subscribe  {
+
+
+}
+
+
+
+.brand-details__merit_photo-result {
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+margin-top: 7px;
+
+}
+
+.footer-subscribe__form {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(99, 101, 106, 0.6);
+
+}
+
+.footer-subscribe__field {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  border: 1px solid rgba(99, 101, 106, 0.3);
+  color: rgba(99, 101, 106, 0.6);
+  padding-left: 11px;
+}
+
+.footer-subscribe__btn {
+  display: flex;
+  width: 100%;
+  color: #63656a;
+  height: 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-subscribe__field:focus {
+  border: 1px solid rgba(99, 101, 106, 0.3);
+  outline: none;
+  font-size: 14px;
+  color: rgba(99, 101, 106, 0.6);
+}
+
+*/
 
 input::-webkit-input-placeholder {
   color: rgba(99, 101, 106, 0.6) !important;
@@ -1210,9 +1488,6 @@ input[class="_checked"]:checked + span::before {
   color: rgba(99, 101, 106, 0.8);
 }
 
-._beautyshops-recommendations {
-  padding-bottom: 32px;
-}
 
 /**Стилизуем страничку Статья*/
 
@@ -2120,7 +2395,6 @@ input[class="_checked"]:checked + span::before {
   box-sizing: border-box;
 }
 
-/*!!!ДОБАВЛЕНЫ СТИЛИ*/
 
 ._header-search-wrap {
   width: 100%;
@@ -2661,6 +2935,24 @@ line-height: 15px;
   color: rgba(99, 101, 106, 0.6);
   text-decoration: underline;
 }
+
+
+
+@media (min-width: 1199px) {
+
+.header-menu__auth-form_wrap .header-menu__auth-form___field {
+border: 1px solid rgba(99, 101, 106, 0.3);
+
+
+}
+
+.header-menu__auth-form_wrap .header-menu__auth-form___field:focus {
+  outline: none;
+  border: 1px solid #afd952;
+  font-size: 14px;
+}
+
+} 
 
 @media (min-width: 686px) and (max-width: 788px) {
   .page-product-item .catalog-item-desc__tabs {
@@ -4097,7 +4389,7 @@ line-height: 17px;
   }
 
   .product-item-card .catalog-filter__text span {
-    margin-left: 37px;
+    margin-left: 30px;
   }
 
   .btn-prev-item,
@@ -4169,6 +4461,7 @@ line-height: 17px;
     margin: 0;
     padding: 0;
     width: 100%;
+
   }
 
   .product-item-card ._catalog-expert-opinion,
@@ -4471,7 +4764,7 @@ margin-bottom: 20px;
 }
 
 .page-product-item .catalog-item-text__expert-details {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .page-product-item .agreement .catalog-filter__text {
@@ -4654,6 +4947,89 @@ line-height: 17px;
   padding-left: 20px;
 }
 
+.page-article .article__description_no-more-pore p,
+.page-article .article__description_no-more-pore h2 {
+  padding: 0;
+}
+
+.product__quick-actions-mobile .product__quick-add2basket img {
+  width: 15px;
+  height: auto;
+}
+.page-salons ._beautyshops-recommendations {
+  padding-bottom: 32px;
+}
+
+.page-product-item .agreement input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  z-index: 100;
+  height: 20px;
+  width: 20px;
+
+}
+
+.page-product-item .agreement input[type="checkbox"] + span::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin: 0 5px 0 0;
+  border: 2px solid #afd952;
+  line-height: 20px;
+  text-align: center;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  display: inline-flex;
+  z-index: -30;
+  box-sizing: border-box;
+
+}
+
+.page-product-item .agreement input[type="checkbox"]:disabled + span::before {
+  cursor: default;
+  border: 2px solid #f8a911;
+}
+.page-product-item .agreement input[type="checkbox"]:disabled + span {
+  -moz-opacity: 0.4;
+  -webkit-opacity: 0.4;
+  opacity: 0.4;
+}
+.page-product-item .agreement input[type="checkbox"] + span::before {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  z-index: -10;
+}
+
+.page-product-item .agreement input[type="checkbox"]:checked + span::before {
+  content: "";
+  font-size: 20px;
+  background: url("../img/icon_hover.png") no-repeat center;
+}
+
+.page-product-item .agreement input[type="checkbox"]:hover + span::before {
+  content: "";
+  font-size: 20px;
+  background: url("../img/icon_checked.png") no-repeat center !important;
+  display: inline-flex;
+}
+
+.page-product-item .agreement input[type="checkbox"]:active + span::before {
+  content: "";
+  font-size: 20px;
+  background: url("../img/icon_hover.png") no-repeat center !important;
+  display: inline-flex;
+}
+
+.page-product-item .agreement input[class="_checked"] + span::before {
+  border: solid 1px rgb(10, 66, 110);
+  background: rgba(232, 232, 232, 0.4);
+}
+
+.page-product-item .agreement input[class="_checked"]:checked + span::before {
+  color: #afd952;
+}
 
 
 }
