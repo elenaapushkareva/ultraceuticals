@@ -3144,7 +3144,9 @@ margin-bottom: 50px;
 
   }
 
-
+.footer .comagic_phone {
+  font-weight: normal;
+}
 
   .footer-mobile__col .footer-icons {
     display: flex;
@@ -4805,5 +4807,10 @@ line-height: 17px;
   color: #afd952;
 }
 
+.footer__mobile-menu_wrap .footer__phone a,
+.footer__mobile-menu_wrap a:-webkit-any-link {
+  text-decoration: none;
+
+}
 
 }
