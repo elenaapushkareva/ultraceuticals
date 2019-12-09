@@ -1114,7 +1114,7 @@ input[class="_checked"]:checked + span::before {
 }
 
 .brand-details__merit_photo {
-  width: 47%;
+  width: 48.6%;
 }
 
 .brand-details__merit-title {
@@ -1125,11 +1125,11 @@ input[class="_checked"]:checked + span::before {
   display: flex;
   width: 100%;
   font-size: 12px;
-  margin-top: 8px;
+  margin-top: 10px;
   font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .brand-details__merit {
