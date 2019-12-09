@@ -1281,6 +1281,10 @@ line-height: 15px;
   color: rgba(99, 101, 106, 0.6);
 }
 
+.article__description_no-more-pore a:hover {
+  color: rgba(99, 101, 106, 0.8);
+}
+
 .article__cite-text_nomorepore {
   font-style: normal;
   font-weight: normal;
